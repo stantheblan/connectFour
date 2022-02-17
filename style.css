@@ -1,39 +1,55 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    background-color: rgb(45, 45, 45);
 }
-.game {
+#game {
     background: rgb(0, 115, 255);
     position: absolute;
-    /* top: 4rem; */
+    top: 5rem;
     left: 50%;
     transform: translate(-50%);
-    width: 700px;
-    height: 600px;
-    padding: 24px;
+    padding: 25px;
+    border-radius: 10%;
 }
 
-.slot {
-    background: white;
-    width: 90px;
-    height: 90px;
-    border: 1px solid black;
-    border-radius: 45%;
+/* game board as a table */
+#board td {
+    width: 50px;
+    height: 50px;
+    border: solid 1px #666;
+    border-radius: 40%;
+    background-color: white;
+}
+
+/* pieces are colored circles */
+.piece {
+    margin: 1px;
+    width: 95%;
+    height: 95%;
+    border-radius: 40%;
+}
+.piece.p1 {
+    background-color: rgb(0, 0, 255);
+}
+.piece.p2 {
+    background-color: rgb(255, 0, 0);
+}
+
+/* top row */
+#column-top td {
+    /* border: dashed 1px lightgray; */
+    border: dotted 2px rgb(168, 168, 168);
+}
+
+.reset {    
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 h1 {
-    text-align: center;
-}
-
-.reset {
+    color: white;
     position: absolute;
-    top: 70vh;
     left: 50%;
     transform: translate(-50%);
-    border: 1px solid black;
-    width: 5rem;
-    text-align: center;
-    cursor: pointer;
 }
