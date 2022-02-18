@@ -26,7 +26,7 @@ To play the game
 ![Player 1 wins](https://i.gyazo.com/36901d63f1ea43a87f6da608dc17dc6d.png)
 ![Player 2 wins](https://i.gyazo.com/489fb01b62c2fdaa37bbff12f1ce2253.png)
 - To reset the game, click the 'Reset' button.
-![Reset button](https://i.gyazo.com/26b2b7f66df148383817060dab25efb3.png)
+- ![Reset button](https://i.gyazo.com/26b2b7f66df148383817060dab25efb3.png)
 --------------------------------------------------
 Built with:
 - JS
