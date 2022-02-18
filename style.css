@@ -55,9 +55,9 @@ h1 {
 
 
 .reset {    
-    position: absolute; 
+    position: relative; 
     /* make reactive to page size */
-    top: 57%;
+    top: 550px;
     left: 50%;
     transform: translate(-50%);
 }
