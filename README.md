@@ -18,7 +18,7 @@
 ![Hover](https://i.gyazo.com/c0c824ec862fb75239fb7a3750807055.png)
 - Click the column you want your piece.
 ![Gameplay](https://i.gyazo.com/91203fb645b805c65e99b4e5bf5e6129.png)
-- Changes players, as indicated by the color of the 'Connect 4' above the board.                           
+- Changes players, as indicated by the color of the 'Connect 4' above the board.                                               
 ![Blue](https://i.gyazo.com/e3375a734892a24e1e539dea516e00c6.png)
 ![Red](https://i.gyazo.com/6fffc49565e9548e1f82b631e34c2b45.png)
 - Once won, an alert is displayed and no user input is allowed.
