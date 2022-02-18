@@ -1,6 +1,18 @@
 body {
     background-color: rgb(45, 45, 45);
 }
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#column-top td:hover {
+    background-color: rgb(183, 234, 201);;
+}
+  
 #game {
     background: rgb(0, 115, 255);
     position: absolute;
@@ -20,6 +32,12 @@ body {
     background-color: white;
 }
 
+/* top row */
+#column-top td {
+    /* border: dashed 1px lightgray; */
+    border: dotted 2px rgb(168, 168, 168);
+}
+
 /* pieces are colored circles */
 .piece {
     margin: 1px;
@@ -34,22 +52,12 @@ body {
     background-color: rgb(255, 0, 0);
 }
 
-/* top row */
-#column-top td {
-    /* border: dashed 1px lightgray; */
-    border: dotted 2px rgb(168, 168, 168);
-}
+
 
 .reset {    
-    position: absolute;
+    position: absolute; 
+    /* make reactive to page size */
     top: 57%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-h1 {
-    color: white;
-    position: absolute;
     left: 50%;
     transform: translate(-50%);
 }
