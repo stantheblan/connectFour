@@ -182,7 +182,6 @@ function inBoard(cells) {
                         board[y][x] === cPlayer
         );
 }
-
 /**
  *  Reloads the page
  *
@@ -191,7 +190,6 @@ function newGame()
 {
     window.location.reload();
 }
-
 /**
  *  Ends the game and displays an alert
  *
@@ -209,7 +207,6 @@ function eGame(player)
     //     e.style.color = "grey"
     // });
 }
-
 /** @type {int} */
 const tableWidth = 7;
 /** @type {int} */
@@ -221,6 +218,5 @@ let cPlayer = 1;
 let board = []; 
 /** @type {bool} */
 let gameWon = false;
-
 makeBoard();
 makeHtmlBoard();
