@@ -102,6 +102,7 @@ function clickHandler(e)
 {
     if (!gameWon)
     {
+        console.log(board)
         //change color of header
         if (cPlayer === 1) //blue
         {
